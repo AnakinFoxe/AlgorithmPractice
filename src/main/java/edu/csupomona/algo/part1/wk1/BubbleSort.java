@@ -24,6 +24,9 @@ public class BubbleSort {
      * @param list          Input list
      */
     public void sort1(List<Integer> list) {
+        if (list.size() < 2)
+            return;
+
         int count = 0;
         // double for-loop and both are related with variable "end"
         // O(n^2)
@@ -54,6 +57,9 @@ public class BubbleSort {
      * @param list              Input list
      */
     public void sort2(List<Integer> list) {
+        if (list.size() < 2)
+            return;
+
         int count = 0;
         for (int end = list.size(); end > 0; --end) {
             boolean swapped = false;
@@ -83,6 +89,9 @@ public class BubbleSort {
      * @param list              Input list
      */
     public void sort3(List<Integer> list) {
+        if (list.size() < 2)
+            return;
+
         int count = 0;
         int end = list.size();
         while (end > 0) {

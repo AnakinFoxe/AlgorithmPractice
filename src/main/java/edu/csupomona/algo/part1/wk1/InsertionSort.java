@@ -23,6 +23,9 @@ public class InsertionSort {
      * @param list                  Input list
      */
     public void sort(List<Integer> list) {
+        if (list.size() < 2)
+            return;
+
         int count = 0;
         for (int idx = 1; idx < list.size(); ++idx) {
             int current = list.get(idx);
