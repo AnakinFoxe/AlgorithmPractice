@@ -46,7 +46,7 @@ public class MergeSort {
     }
 
     /**
-     * Merge Sort
+     * TopDown Merge Sort
      * @param list                  Input list (will not be destroyed)
      * @return                      Sorted list
      */
