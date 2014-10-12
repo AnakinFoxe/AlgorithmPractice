@@ -27,8 +27,11 @@ public class SelectionSort {
 
         int count = 0;
 
+        // first part is sorted
         for (int sorted = 0; sorted < list.size()-1; ++sorted) {
             int minIdx = sorted;
+
+            // keep finding minimal element in the rest part
             for (int idx = sorted + 1; idx < list.size(); ++idx) {
                 if (list.get(minIdx) > list.get(idx))
                     minIdx = idx;
@@ -36,6 +39,7 @@ public class SelectionSort {
                 ++count;
             }
 
+            // swap
             int tmp = list.get(sorted);
             list.set(sorted, list.get(minIdx));
             list.set(minIdx, tmp);
