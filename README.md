@@ -21,6 +21,7 @@ Part One: Design and Analysis of Algorithms.
     - Space Complexity: O(n)
     - Based on TopDown Merge Sort.
   - Karatsuba Multiplication
+    - Not going to implement this one.
   - Strassen
   - Closest Pair 2D
   - Question 1
