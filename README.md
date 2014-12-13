@@ -33,3 +33,7 @@ Part One: Design and Analysis of Algorithms.
   - Closest Pair 2D
   - Question 1
 - Week 2
+  - Quick Sort
+  - Question 1
+  - Question 2
+  - Question 3
