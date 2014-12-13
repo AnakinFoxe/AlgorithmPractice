@@ -23,6 +23,13 @@ Part One: Design and Analysis of Algorithms.
   - Karatsuba Multiplication
     - Not going to implement this one.
   - Strassen
+    - Naive matrix multiplication
+    - Divide-and-Conquer matrix multiplication
+      - Time Complexity: O(n^3)
+      - Space Complexity: O(n^2)
+    - Strassen
+      - Time Complexity: O(n^2.8)
+      - Space Complexity: O(n^2)
   - Closest Pair 2D
   - Question 1
 - Week 2
