@@ -32,6 +32,7 @@ Part One: Design and Analysis of Algorithms.
       - Space Complexity: O(n^2)
   - Closest Pair 2D
   - Question 1
+    - Used Count Inversions program.
 - Week 2
   - Quick Sort
   - Question 1
